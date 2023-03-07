@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(120deg, #ffef85, #ffb349);
+    background-image: linear-gradient(120deg, #8ff7eb, #439fc1);
     color: white;
     font-family: "Roboto", sans-serif;
     min-height: 100vh;
@@ -32,14 +32,14 @@ form button {
 }
 
 form button {
-    color: #ffb349;
+    color: #8ff7eb;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 form button:hover {
-    background: #ffb349;
+    background: #439fc1;
     color: white;
 }
 
@@ -117,7 +117,7 @@ select {
 }
 
 select {
-    color: #ffb349;
+    color: black;
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
@@ -126,7 +126,7 @@ select {
 .select::after {
     content: "\25BC";
     position: absolute;
-    background: #ffb349;
+    background: #439fc1;
     top: 0;
     right: 0;
     padding: 1rem;
@@ -136,5 +136,5 @@ select {
 
 .select:hover::after {
     background: white;
-    color: #ffb349;
+    color: #439fc1;
 }
